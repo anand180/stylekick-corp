@@ -1,4 +1,6 @@
 Corporate::Application.routes.draw do
+  resources :users
+
   get "pages/index"
 
   # The priority is based upon order of creation:
