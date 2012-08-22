@@ -37,6 +37,9 @@ GEM
       coffee-script-source
       execjs
     coffee-script-source (1.3.3)
+    colorbox-rails (0.0.9)
+      jquery-rails
+      rails (>= 3.1.1)
     commonjs (0.2.6)
     erubis (2.7.0)
     execjs (1.4.0)
@@ -130,6 +133,7 @@ PLATFORMS
 
 DEPENDENCIES
   coffee-rails (~> 3.2.1)
+  colorbox-rails
   jquery-rails
   pg
   rails (= 3.2.7)
