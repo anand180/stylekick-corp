@@ -9,13 +9,14 @@ facebook_logo.png: facebook_logo-116ace24d2b671176362f7ae9f40a640.png
 logo_small_white.png: logo_small_white-b2d5dad9a682bc9f7e9902a7b45109bf.png
 logo_white.png: logo_white-3e4e8a1ede3780410e6c5946e8318e0b.png
 request_button.png: request_button-055fa82d3a7dde73da93ccfdb8778a02.png
-sk_buttton.png: sk_buttton-6bcad6d0700061388851c5a74fbe0bef.png
+sk_send.png: sk_send-d92a5a008382ea07274cdd874d4406e2.png
 team/anand_dhillon.jpeg: team/anand_dhillon-a9975a5f54d13991335e9ff40457d020.jpeg
+team/ben_aneesh.jpg: team/ben_aneesh-ac43f9820addb1a5bbf43429cda162c5.jpg
 team/karn_saroya.jpeg: team/karn_saroya-bcc5e16d37536fb2f95c21fd1fc5af6e.jpeg
 team/natalie_gray.jpeg: team/natalie_gray-2628320b6f3e54f024ac4f520b1851b3.jpeg
 twitter_logo.png: twitter_logo-c3261be3f6f3487f8d64aec10353bd20.png
 application.js: application-0e68e66b8d65d8d494c57062ea6b7c76.js
-application.css: application-adef2c380d658c12df0232105ed870c7.css
+application.css: application-3bf6cfeb5950fa58896276ed4d0e521e.css
 colorbox-rails/border.png: colorbox-rails/border-4517dd96800f1db66bad7292c9ac3022.png
 colorbox-rails/controls.png: colorbox-rails/controls-b7e68cd0fd7976df6eac3bb3e814c942.png
 colorbox-rails/ie6/borderBottomCenter.png: colorbox-rails/ie6/borderBottomCenter-5d472922bd29c8440c8a30be81b24ee6.png
