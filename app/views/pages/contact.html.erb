@@ -24,6 +24,9 @@
 			  +1 732-669-2629
 			</p><br>
 
+		    <!--left column-->
+		<div class='row'>
+	      <div class="span3">
 		    <p><strong>Email</strong><p>
 			<!--form-->
 			<%- model_class = User -%>
@@ -35,16 +38,21 @@
 				    <%= f.label :email, :class => 'control-label' %>
 				      <%= f.text_field :email, :class => 'text_field' %>
 				
-				   	<%= f.label :about, :class => 'control-label' %>
-				      <%= f.select :about, User::ABOUT, :prompt => 'Select a reason' %>
-				
+				   	<%= f.label :about,'Inquiry', :class => 'control-label' %>
+				      <%= f.select :about, User::ABOUT, :prompt => 'Select inquiry type' %>
+			</div>
+				<br><br>
+			<div class='span3'>
 				    <%= f.label :details , :class => 'control-label' %>
-				      <%= f.text_area :details, :class => 'text_area', :rows => 4 %>
-				   <br>
+				      <%= f.text_area :details, :class => 'text_area', :rows => 5 %>
 				    <!-- <%= f.submit "Send" %> -->
-				    <%= image_submit_tag("sk_send.png") %>
 
-				<% end %>			
+					   <%= image_submit_tag "send.png", :alt => 'send email', :class => 'send-button' %>
+
+
+				<% end %>		
+		     </div>	
+		   </div><!--/.row-->
 
 	    </div><!--/.hero-unit-->
 	    <br><br>
